@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="index.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron" />
+		<script type="text/javascript" src="../scripts/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="calculator_body">
+			<div id="calculator_window">
+				<div id="calculator_window_maintext_container">
+					<h2 id="calculator_window_maintext"></h2>
+				</div>
+				<div id="calculator_window_smalltext_container">
+					<p id="calculator_window_smalltext"></p>
+				</div>
+			</div>
+			<div id="button_container">
+				<div class="button_row">
+					<div class="button" id="button_all_clear" onclick="buttonPress('#button_all_clear')">
+						<p>AC</p>
+					</div>
+					<div class="button" id="button_clear_entry" onclick="buttonPress('#button_clear_entry')">
+						<p>CE</p>
+					</div>
+					<div class="button" id="button_division" onclick="buttonPress('#button_division')">
+						<p>/</p>
+					</div>
+					<div class="button b_right" id="button_multiplication" onclick="buttonPress('#button_multiplication')">
+						<p>*</p>
+					</div>
+				</div>
+				<div class="button_row">
+					<div class="button" id="button_7" onclick="buttonPress('#button_7')">
+						<p>7</p>
+					</div>
+					<div class="button" id="button_8" onclick="buttonPress('#button_8')">
+						<p>8</p>
+					</div>
+					<div class="button" id="button_9" onclick="buttonPress('#button_9')">
+						<p>9</p>
+					</div>
+					<div class="button b_right" id="button_subtraction" onclick="buttonPress('#button_subtraction')">
+						<p>-</p>
+					</div>
+				</div>
+				<div class="button_row">
+					<div class="button" id="button_4" onclick="buttonPress('#button_4')">
+						<p>4</p>
+					</div>
+					<div class="button" id="button_5" onclick="buttonPress('#button_5')">
+						<p>5</p>
+					</div>
+					<div class="button" id="button_6" onclick="buttonPress('#button_6')">
+						<p>6</p>
+					</div>
+					<div class="button b_right" id="button_addition" onclick="buttonPress('#button_addition')">
+						<p>+</p>
+					</div>
+				</div>
+				<div class="button_row">
+					<div class="button" id="button_1" onclick="buttonPress('#button_1')">
+						<p>1</p>
+					</div>
+					<div class="button" id="button_2" onclick="buttonPress('#button_2')">
+						<p>2</p>
+					</div>
+					<div class="button" id="button_3" onclick="buttonPress('#button_3')">
+						<p>3</p>
+					</div>
+					<div class="button b_double_vertical" id="button_equal" onclick="buttonPress('#button_equal')">
+						<p>=</p>
+					</div>
+				</div>
+				<div class="button_row">
+					<div class="button b_double_horizontal" id="button_0" onclick="buttonPress('#button_0')">
+						<p>0</p>
+					</div>
+					<div class="button" id="button_period" onclick="buttonPress('#button_period')">
+						<p>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>
+

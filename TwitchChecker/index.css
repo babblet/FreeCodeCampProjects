@@ -1,0 +1,92 @@
+body {
+	background: grey;
+	text-align: center;
+	font-family: Quicksand;
+}
+
+#mainContainer {
+	background-color: white;
+	border-radius: 10px;
+	max-width: 400px;
+	min-width: 0;
+	margin: 0 auto;
+	box-shadow: 5px 5px 50px black;
+}
+
+#title {
+	padding-top: 1px;
+	font-size: 2em;
+}
+
+#tabInfoContainer {
+	padding-bottom: 1px;
+}
+
+#tabContainer {
+	background-color: blue;
+	overflow: visible;
+	padding: 0 33px;
+}
+
+#searchField {
+	width: 80%;
+	padding-left: 7px;
+	margin: 10px 0;
+	border: solid;
+	border-color: grey;
+	border-width: 2px;
+	border-radius: 200px;
+	outline: none;
+	background-color: white;
+}
+
+#tabInfoBox {
+	background-color: yellow;
+}
+
+.tab {
+	margin: 0 5px;
+	float: left;
+	border-radius: 200px;
+	width: 30%;
+	/* 3 tabs in line*/
+	background-color: grey;
+	cursor: pointer;
+	box-shadow: 1px 1px 5px black;
+}
+
+.streamerContainer {
+	overflow: hidden;
+	text-align: center;
+	background-color:;
+	border-radius: 10px;
+	padding: 10px 5px 10px 5px;
+	margin: 10px 5px;
+	box-shadow: inset 0px 1px 10px black;
+}
+
+.streamerImage {
+	margin-left: 5%;
+	float: left;
+	width: 20%;
+	border: none;
+	border-radius: 50%;
+	box-shadow: 2px 2px 10px black;
+}
+
+.streamerName {
+	font-size: 100%;
+	text-decoration: underline;
+}
+
+.streamerStatus {
+	font-size: 100%;
+	margin-top: 26px;
+}
+
+.streamerTitle {
+	margin-top: 20px;
+	margin-bottom: -4px;
+	box-shadow: 1px 1px 5px black;
+	border-radius: 10px;
+}

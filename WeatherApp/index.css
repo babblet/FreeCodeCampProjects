@@ -1,0 +1,62 @@
+html{
+	height:100%;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p {
+	text-shadow: -2px 1px 20px black;
+}
+
+h1 {
+	text-shadow: -2px 1px 20px black;
+}
+h4 {
+	text-shadow: -2px 1px 15px black;
+	padding-bottom: 10px; 
+}
+
+body {
+	overflow:hidden;
+	font-family:'Baloo Thambi';
+	font-size: 16px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(20deg,rgb(140, 100, 255), rgb(100, 90, 255));
+}
+
+#units {
+	border:none;
+	cursor: pointer;
+	background: none;
+	color: white;
+	font-family:'Baloo Thambi';
+	font-size: 20px;
+	text-shadow: -2px 1px 15px black;
+	padding-bottom: 10px; 
+}
+#units:focus {
+	outline:0;
+}
+
+.weatherBox {
+	padding:40px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: linear-gradient(20deg, rgb(51, 61, 95), rgb(31, 41, 105));
+	margin: 100px 30% 10px 30%;
+	border-radius:6px;
+	box-shadow: -2px 0 120px rgb(90, 50, 205);
+	min-width:300px;
+}
+
+.weather-icon {
+	margin: 0 auto;
+	width: 60px;
+}
+

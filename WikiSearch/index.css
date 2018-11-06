@@ -1,0 +1,103 @@
+body {
+	background-color: black;
+}
+
+#mainBox {
+	margin-top: 150px;
+	font-family: Quicksand;
+	text-align:center;
+	color:white;
+	-webkit-transition: margin-top 1s;
+	transition: margin-top 1s;
+}
+
+#buttonRandom {
+	border:none;
+	border-radius:100px;
+	background-color: white;
+	margin-bottom: 20px;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#buttonRandom a {
+	font-size: 1em;
+	text-decoration: none;
+	color:black;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}   
+
+#buttonRandom:hover {
+	background-color: purple;
+}
+
+#buttonRandom a:hover {
+	color: white;
+}
+
+input[type=text]{
+	font-size: 1em;
+	border:none;
+	border-radius:100px;
+	padding-left:10px;
+	width:65px;
+	min-width:65px;
+	-webkit-transition: color 0.5s,  background-color 0.5s, width 1s;
+	transition: color 0.5s,  background-color 0.5s, width 1s;
+}
+
+input[type=text]:focus {
+	outline: none;
+}
+
+input[type=text]:hover {
+	background-color: purple;
+	color: white;
+}
+
+#clearButton {
+	font-size: 1em;
+	border: none;
+	border-radius: 100px;
+	margin-left: 10px;
+	color: black;
+	background-color: white;
+	-webkit-transition: color 0.5s;
+	-webkit-transition: background-color 0.5s;
+	transition: color 0.5s;
+	transition: background-color 0.5s;
+}
+
+#clearButton:hover {
+	color: white;
+	background-color: purple;
+}
+
+.search-result-box {
+	margin: 0 5% 50px 5%;
+	opacity: 0;
+}
+
+.search-result-box a {
+	text-decoration: none;
+	color: white;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+
+.search-result-box a:hover {
+	color:purple;
+}
+
+#myLink {
+	color: white;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+	text-decoration:none;
+}
+
+#myLink:hover {
+	color: purple;
+}
+

@@ -1,0 +1,81 @@
+body {
+	background-color: rgb(150,150,150);
+	padding-top: 80px;
+	text-align: center;
+}
+
+#board {
+	background-color: black;
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.board_tile {
+	background-color: white;
+	float:left;
+	margin: 12px 0 0 12px;
+	overflow:hidden;
+	width: 150px;
+	height: 150px;
+	box-shadow: inset 0px 5px 15px black;
+	font-size: 8em;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.board_tile:hover {
+	background-color: rgb(230,230,230);
+}
+
+#turn {
+	background-color: white;
+	width: 250px;
+	margin: 0 auto 10px auto;
+	border-radius: 10px;
+	box-shadow: inset 0px 1px 2px black;
+}
+
+#button_restart {
+	border-radius: 10px;
+	background-color: white;
+	margin: 20px auto 0 auto;
+	width: 100px;
+	cursor: pointer;
+	box-shadow: inset 0 -2px 2px black;
+	transition: 0.1s;
+}
+
+#button_restart:active{
+	box-shadow: inset 0 0 5px black;
+}
+
+#overlay {
+	position: fixed;
+	width: 300px;
+	height: 200px;
+	background-color: white;
+	top: 0;
+	left: 50%;
+	border-radius: 20px;
+	box-shadow: 0px 5px 50px;
+	margin-top: 265px;
+	margin-left: -150px;
+	transition: margin-top 1s;
+}
+
+.overlay_option {
+	width:100px;
+	height: 100px;
+	float:left;
+	margin-top: 30px;
+	margin-left: 32px;
+	box-shadow: inset 1px 1px 5px;
+	font-size: 5.7em;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.overlay_option:hover {
+	background-color: rgb(230,230,230);
+}
